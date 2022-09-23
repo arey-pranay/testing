@@ -1,62 +1,189 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>💓Arey Pranay💓</title>
-   <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="icon" href="favicon.ico">
-  </head>
-  <body>
-    <h1>
-      Pranay Parikh
-    </h1>
-      <img src="WIN_20220807_18_27_46_Pro.jpg" alt="" width="500">
-    <p>
-      <i>VIT Vellore Student<br>Deep-art-ment of
-        <a href="https://vit.ac.in/schools/school-of-computer-science-and-engineering" target="_blank">Computer Science</a><br>
-        <a href="https://vit.ac.in/" target="_blank">VIT Vellore</a><br>
-        Vellore TN 632014
-      </i>
-    </p>
-    <p>
-      I'm Pranay Parikh, I'm 18 years old and I live in Indore (MP).Front-end developer and UI Designer, I'm passionate about
-       interfaces, from their creation to development. I like to learn more and more about the area, challenges that take me out of
-       my comfort zone are the best. I have prototyped and developed Landing Pages, Sites, E-commerces, E-mails Marketing, Apps and Programs.
-    </p>
-    <hr>
-    <h3>My Hobbies</h3>
-    <ul>
-      <li>Wondering about deep philosophical question regarding life and morality. Questions like- why do we exist ? do we even exist ?
-      what is existence ? in fact, who are we and what is being ?</li>
-      <li>Plus, sometimes I study engineering too.</li>
-    </ul>
-    <h3><a href="https://www.youtube.com/watch?v=Mvaosumc4hU">All my friends are: </a></h3>
-    <ol type="i" start="5">
-      <li>Toxic</li>
-      <li>Ambitionless</li>
-      <li>So Rude</li>
-      <li>Fucking Negetive</li>
-    </ol>
-  <h4><a href="contact.html">Contact Details</a></h4>
+<head>
+  <meta charset="utf-8">
+  <title>VitShop</title>
 
-  <table border="1">
-    <tr>
-      <td>Hello</td>
-      <td>Bruh</td>
-      <td>How You Doing</td>
-    </tr>
-    <tr>
-      <td>Nothing</td>
-      <td>Muchhhh</td>
-      <td>All Good</td>
-    </tr>
-  </table>
-  <form class=" " action="https://www.instagram.com/arey_pranay" method=" " target="_blank">
-    <label>Enter Name</label>
-    <input type="text" name="" value=""><br>
-    <input type= "button" name="" value="This is a button"><br>
-    <input type="submit" name="" value="My Instagram">
-    <!--other input types: file, date, radio, range, password -->
-  </form>
-  </body>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font-awesome -->
+  <script src="https://kit.fontawesome.com/8fc17f47e8.js" crossorigin="anonymous"></script>
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span>
+        </button>
+        <a href="" class="navbar-brand" style="font-family: 'Ubuntu', sans-serif;">VitShop</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href=" ">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" ">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=" ">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Title -->
+
+      <div>
+        <div class="row">
+          <div class="col-lg-6">
+            <h1><b><i>A Portal Between <br> VIT & Vellore</i></b></h1>
+            <button type="button" class="btn btn-outline-dark btn-lg" style="margin-right:22px"><i class="fa-solid fa-graduation-cap"></i>  I'm a VITian</button>
+            <button type="button" class="btn btn-outline-dark btn-lg"><i class="fa-solid fa-shop"></i> I have a Shop</button>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/iphone6.png" alt="iphone-mockup">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+    <div class="col-lg-3 feat">
+    <h3><i class="icon fa-sharp fa-solid fa-people-roof fa-2x"></i><br>Customers</h3>
+    <p>When a shop registers with, we add it to our database, making it visible to all the VITians</p>
+    </div>
+    <div class="col-lg-3 feat">
+    <h3><i class="icon fa-solid fa-person-walking-with-cane fa-2x"></i><br>Accessibility</h3>
+    <p>With our large and trusted database, students can find all the shops they need.</p>
+    </div>
+    <div class="col-lg-3 feat">
+    <h3><i class="icon fa-solid fa-medal fa-2x"></i> <br>Win-Win For all</h3>
+    <p>The shops get a website and recognition. The students get to something something </p>
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+    <section id="testimonials">
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-pause:"hover" >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>"Earlier I used to ask my friends for which shop I should visit and therefore had a very limited database but now with VitShop, I can get information and reviews about all the shops nearby. It has made my college life very easy."</h2>
+            <img src="images/vitian-img.jpg" style="border-radius:100%; width:10%; margin-top:10px;" alt="profile">
+            <em>Pranay, A VITian</em>
+          </div>
+          <div class="carousel-item">
+            <h2>"Even though, there are tens of thousands of people in VIT, very few of them knew about my shops and even fewer used to come and purchase, due to lack of credibility. But VitShop has changed everything. Thank You VITShop."</h2>
+            <img src="images/shopkeeper-img.jpg" style="border-radius:100%; width:10%; margin-top:10px;" alt="profile">
+            <em>Chandu, Shopkeeper</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </button>
+
+      </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-img"; src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-img"; src="images/tnw.png" alt="tnw-logo">
+    <img class="press-img"; src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-img"; src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>We have listed all kinds of shop you'll ever need</h2>
+    <p>Just select the category and get all the information </p>
+
+
+    <h3>Grocery Shops</h3>
+    <h2>Total: 30</h2>
+    <p>Under 5 km: 8 </p>
+    <p>5 to 10 km: 8</p>
+    <p>More than 10 km: 14</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Restaurants</h3>
+    <h2>Total: 21</h2>
+    <p>Under 5 km: 3 </p>
+    <p>5 to 10 km: 9</p>
+    <p>More than 10 km: 9</p>
+    <button type="button">Sign Up</button>
+
+
+    <h3>Fashion and Style</h3>
+    <h2>Total: 14</h2>
+    <p>Under 5 km: 2 </p>
+    <p>5 to 10 km: 5</p>
+    <p>More than 10 km: 7</p>
+    <button type="button">Sign Up</button>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>If you have a shop, Join us today !!</h3>
+    <button type="button">Mail us @ VITShop</button>
+    <button type="button">Request Call Back</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <p>© Copyright arey_pranay</p>
+
+  </footer>
+
+
+</body>
+
 </html>
