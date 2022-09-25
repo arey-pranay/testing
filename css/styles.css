@@ -1,5 +1,5 @@
 #title{
-  background-color: #F0E9FF;
+  background-image: linear-gradient(white, #B346FF);
 }
 #features{
   padding: 5% 10%;
@@ -10,11 +10,36 @@
   font-family: "Montserrat";
   background-color: #F0E9FF;
 }
+#press{
+  background-color: #fff;
+  margin: 15px;
+}
 #pricing{
-  background-color: #FFFFFF;
+    background-color: #F0E9FF;
+    text-align: center;
+    padding: 4% 4%;
 }
 #cta{
-  background-color: #F0E9FF;
+ text-align: center;
+ padding: 20px;
+}
+
+/* Footer */
+#footer{
+  background-image: linear-gradient( #B346FF, white);
+  color: #000;
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+  /* background-color: #FAF3E3; */
+}
+
+.footer-icons{
+  color: #fff;
+  padding: 1%;
+}
+
+.footer-icons:hover{
+  color: #7F8487;
 }
 
 h1{
@@ -45,4 +70,15 @@ h1{
 }
 .carousel-item{
     padding: 5% 10%;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+@media (max-width: 900px){
+  #title{
+    text-align: center;
+  }
 }
